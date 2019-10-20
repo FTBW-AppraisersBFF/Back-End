@@ -1,6 +1,5 @@
 #  ![Logo](https://i.imgur.com/JDulAno.png) Appraiser's BFF Backend 
 
-Hosted at: https://appraisersbff.herokuapp.com/
 
 - [Note on Price Calculations](#note-on-price-calculations)
 - [Sanity Check](#sanity-check)
