@@ -1,5 +1,5 @@
 #  ![Logo](https://i.imgur.com/JDulAno.png) Appraiser's BFF Backend 
-
+Deployed to: https://appraisersapp.herokuapp.com/
 
 - [Note on Price Calculations](#note-on-price-calculations)
 - [Sanity Check](#sanity-check)
@@ -33,7 +33,7 @@ http method: **[GET]**
 **Example Response:** status 200 (OK)
 ```
 {
-  "test": "it's up"
+  "Server Running"
 }
 ```
 
@@ -42,7 +42,7 @@ http method: **[GET]**
 ### NO AUTHENTICATION REQUIRED
 
 ### Registering a user
-method url: **api/auth/register**
+method url: **/api/auth/register**
 
 http method: **[POST]**
 
@@ -95,19 +95,6 @@ http method: **[POST]**
 ```
 {
   "message": "Invalid credentials"
-}
-```
-
-# ABOUT ENDPOINT
-
-method url: */about*
-
-http method: **[GET]**
-
-**Example Response:** status 200 (OK)
-```
-{
-  "test": ["the", "app", "works" ]
 }
 ```
 
