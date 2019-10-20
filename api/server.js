@@ -10,8 +10,7 @@ const housesRoutes = require('../routes/restricted/houses/houses');
 
 server.use(express.json());
 server.use(cors());
-server.use(helmet())
-server.use('/api/about', aboutRoute);
+server.use(helmet());
 server.use('/api/fav', favRoute);
 server.use('/api/houses', housesRoutes);
 server.use('/api/auth', authRouter);

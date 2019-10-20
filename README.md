@@ -201,7 +201,7 @@ http method: **[POST]**
 
 #### PUT Existing House
 
-method url: **/houses/:id**
+method url: **/api/houses/:id**
 
 *where `:id` is the house id*
 
@@ -228,7 +228,7 @@ http method: **[PUT]**
 }
 ```
 
-**Example Response from `/houses/4`:** status 200 (OK)
+**Example Response from `/api/houses/4`:** status 200 (OK)
 ```
 {
   "id": 4,
@@ -244,7 +244,7 @@ http method: **[PUT]**
 
 #### DELETE Existing House
 
-method url: **/houses/:id**
+method url: **/api/houses/:id**
 
 *where `:id` is the house id*
 
@@ -268,7 +268,7 @@ http method: **[DELETE]**
 
 #### GET User Favorites
 
-method url: **/fav/user**
+method url: **api/fav/user**
 
 http method: **[POST]**
 
@@ -306,7 +306,7 @@ http method: **[POST]**
 
 #### POST New Listing into Favorites
 
-method url: **/fav**
+method url: **api/fav**
 
 http method: **[POST]**
 
@@ -343,7 +343,7 @@ http method: **[POST]**
 
 #### PUT Listing from Favorites
 
-method url: **/fav/:id**
+method url: **/api/fav/:id**
 
 *where `:id` is the fav id*
 
@@ -368,7 +368,7 @@ http method: **[PUT]**
 }
 ```
 
-**Example Response from `/fav/7`:** status 200 (OK)
+**Example Response from `/api/fav/7`:** status 200 (OK)
 ```
 {
   "id": 7,
