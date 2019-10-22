@@ -104,7 +104,7 @@ http method: **[POST]**
 
 #### GET All Houses
 
-method url: **/houses**
+method url: **/api/houses**
 
 http method: **[GET]**
 
@@ -160,7 +160,7 @@ http method: **[GET]**
 
 #### POST New House
 
-method url: **/houses**
+method url: **/api/houses**
 
 http method: **[POST]**
 
@@ -250,7 +250,7 @@ method url: **/api/houses/:id**
 
 http method: **[DELETE]**
 
-**Example Response from `/houses/1`:** status 200 (OK)
+**Example Response from `/api/houses/1`:** status 200 (OK)
 ```
 {
   "id": 1,
@@ -268,7 +268,7 @@ http method: **[DELETE]**
 
 #### GET User Favorites
 
-method url: **api/fav/user**
+method url: **/api/fav/user**
 
 http method: **[POST]**
 
@@ -306,7 +306,7 @@ http method: **[POST]**
 
 #### POST New Listing into Favorites
 
-method url: **api/fav**
+method url: **/api/fav**
 
 http method: **[POST]**
 
@@ -388,7 +388,7 @@ method url: **/fav/:id**
 
 http method: **[DELETE]**
 
-**Example Response from `/fav/7`:** status 200 (OK)
+**Example Response from `/api/fav/7`:** status 200 (OK)
 ```
 {
   "id": 7,
